@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/task3.css">
+</head>
+
+<body>
+    <div>
+        <p >Let's suppose this is for a magazine order.The next thing you want to add is a drop down list of magazine
+            choices(think up four or five) and pair of radio buttons for choosing the length of subscription...</p>
+        <form action="register" method="get">
+            <div class="spacing">
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+            </div>
+            <div class="spacing">
+                <label for="address">Address:</label>
+                <input type="text" id="address" >
+            </div>
+            
+            <div class="spacing">
+                <label for="city">City:</label>
+            <input type="text" id="city">
+            </div>
+            
+            <div class="spacing">
+                <label for="state">State:</label>
+            <input type="text" id="state">
+            </div>
+            <div class="spacing">
+                <label for="zip">Zip:</label>
+            <input type="text" id="zip">
+            </div >
+            <div class="spacing">
+                <label for="magazine">Magazine:</label>
+            <select name="magazine" id="magazine">
+                <option value="newsweek" >Newsweek</option>
+            </select>
+            </div>
+            <div class="spacing">
+                <label>Subscription:</label>
+                <input type="radio" id="year1" name="case">
+                <label for="year1">1 year</label>
+                <input type="radio" id="years2"name="case">
+                <label for="year2">2 years</label>
+            </div>
+            
+                <button>Send Your Order</button>
+            
+            </form>
+
+            <a href="#">VIEW THIS EXAMPLE ON A PAGE BY ITSELF</a><br>
+            <hr>
+            <p >Lastly,make the Name,Address and City boxes a little bigger and add a text area for Additional
+                Comments...</p>
+                <form>
+                    <div class="width">
+                        <label for="name2">Name:</label>
+                        <input type="text" id="name2">
+                    </div>
+                    <div class="width">
+                        <label for="address2">Address:</label>
+                        <input type="text" id="address2" >
+                    </div>
+                    
+                    <div class="width">
+                        <label for="city2">City:</label>
+                    <input type="text" id="city2">
+                    </div>
+                    
+                    <div class="width">
+                        <label for="state2">State:</label>
+                    <input type="text" id="state2">
+                    </div>
+                    <div class="width">
+                        <label for="zip2">Zip:</label>
+                    <input type="text" id="zip2">
+                    </div >
+                    <div class="width">
+                        <label for="magazine2">Magazine:</label>
+                    <select name="magazine" id="magazine2">
+                        <option value="newsweek" >Newsweek</option>
+                    </select>
+                    </div>
+                    <div class="width">
+                        <label>Subscription:</label>
+                        <input type="radio" id="1year" name="select">
+                        <label for="1year">1 year</label>
+                        <input type="radio" id="2years"name="select">
+                        <label for="2years">2 years</label>
+                    </div>
+                    <div class="width">
+                        <label for="comment">Additional Comments:</label>
+                        <br>
+                        <textarea id="comment" rows="4" cols="40"></textarea>
+                    </div>
+                    
+                        <button>Send Your Order</button>
+                </form>
+            <a href="#">VIEW THIS EXAMPLE ON A PAGE BY ITSELF</a><br>
+            <p>Now that's a handsome form!Upload it,test it and make sure it works properly and sends you the data as
+                excepted.
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>

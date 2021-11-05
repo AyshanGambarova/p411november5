@@ -1,0 +1,68 @@
+.spacing{
+    margin-bottom: 10px;
+}
+.spacing:first-child input {
+    margin-left: 25px;
+}
+.spacing:nth-child(2) input {
+    margin-left: 10px;
+}
+
+.spacing:nth-child(3) input {
+    margin-left: 35px;
+}
+.spacing:nth-child(4) input {
+    width: 100px;
+    margin-left: 30px;
+}
+.spacing:nth-child(5) input {
+    width: 100px;
+    margin-left: 40px;
+}
+.spacing:nth-child(6) select{
+    width: 107px;
+    
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.width{
+    margin-bottom: 10px;
+}
+.width:first-child input{
+    width: 25%;
+    margin-left: 35px;
+}
+.width:nth-child(2) input{
+    width: 25%;
+    margin-left: 6px;
+}
+.width:nth-child(2) input{
+    width: 25%;
+    margin-left: 21px;
+}
+.width:nth-child(3) input{
+    width: 25%;
+    margin-left: 45px;
+}
+.width:nth-child(4) input{
+    width: 10%;
+    margin-left: 40px;
+}
+.width:nth-child(5) input{
+    width: 10%;
+    margin-left: 50px;
+}
+.width:nth-child(6) select{
+    width: 140px;
+    margin-left: 10px;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+
+}
+
+
+
